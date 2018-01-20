@@ -1,0 +1,1 @@
+[Sat Jan 20 14:40:59.209118 2018] [php7:error] [pid 15] [client 172.18.0.1:51110] PHP Fatal error:  Uncaught Error: Call to undefined function ddd() in /var/www/html/mysql.php:10\nStack trace:\n#0 {main}\n  thrown in /var/www/html/mysql.php on line 10
