@@ -8,9 +8,6 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: toor
-      #MYSQL_DATABASE: testdb
-      #MYSQL_USER: docky
-      #MYSQL_PASSWORD: docky
     ports:
       - 3306:3306
 
@@ -33,4 +30,4 @@ services:
       DB_HOST: db:3306
       DB_PASSWORD: toor
     ports:
-      - 81:80
+      - 80:80
