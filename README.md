@@ -1,4 +1,5 @@
 # LAMP Stack
+# https://github.com/s-n-n/lamp
 Provides customizable LAMP stack.
 
 It includes:
