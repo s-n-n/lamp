@@ -21,7 +21,7 @@ services:
     links:
       - db
     volumes:
-      - ../www:/var/www/html
+      - ../project/web:/var/www/html
       - ./php.ini:/usr/local/etc/php/conf.d/php.ini
       - ./virtualhost-php.conf:/etc/apache2/sites-available/001-virtualhost-php.conf
       - ../logs/error.log:/var/www/error.log
